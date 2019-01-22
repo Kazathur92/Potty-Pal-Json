@@ -1,16 +1,128 @@
 {
-  "posts":[
+  "users": [
     {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
+      "name": "Alfonso",
+      "lastName": "Miranda",
+      "userName": "Kazathur",
+      "email": "gabmin21@hotmail.com",
+      "password": "Zodian0821!",
+      "DOB": "1992-09-21",
+      "id": 1
+    },
+    {
+      "name": "Stephanie",
+      "lastName": "Goldstein",
+      "userName": "Stephy",
+      "email": "bipeta@hotmail.com",
+      "password": "woopy",
+      "DOB": "1987-01-24",
+      "id": 2
+    },
+    {
+      "name": "1",
+      "lastName": "1",
+      "userName": "1",
+      "email": "1",
+      "password": "1",
+      "DOB": "1111-11-11",
+      "id": 3
+    },
+    {
+      "name": "2",
+      "lastName": "2",
+      "userName": "2",
+      "email": "2",
+      "password": "2",
+      "DOB": "2018-12-03",
+      "id": 4
+    },
+    {
+      "name": "b",
+      "lastName": "b",
+      "userName": "b",
+      "email": "b",
+      "password": "b",
+      "DOB": "2019-01-01",
+      "id": 5
     }
   ],
-  "comments" : [
+  "favorites": [
+    {}
+  ],
+  "markers": [
     {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "name": "Davidson County Public Works",
+      "location": "3800 Charlotte Ave, Nashville, TN 37209",
+      "lat": 36.1528529,
+      "lng": -86.8307035,
+      "public": true,
+      "rating": 1,
+      "inactiveIcon": "https://cdn3.iconfinder.com/data/icons/map-and-location-fill/144/Place_Restroom-512.png",
+      "activeIcon": "https://cdn4.iconfinder.com/data/icons/bold-purple-free-samples/32/Men_Symbol_Restroom_Human_Toilet-512.png",
+      "changingStation": true,
+      "changingStation_2": true,
+      "handicapAccess": true,
+      "handicapAccess_2": true,
+      "user_Id": 1,
+      "id": 3
+    },
+    {
+      "location": "5601-, 5615 Old Hickory Blvd, Nashville, TN 37218",
+      "lat": 36.2438706,
+      "lng": -86.9046183,
+      "public": true,
+      "rating": 5,
+      "inactiveIcon": "https://cdn3.iconfinder.com/data/icons/map-and-location-fill/144/Place_Restroom-512.png",
+      "activeIcon": "https://cdn4.iconfinder.com/data/icons/bold-purple-free-samples/32/Men_Symbol_Restroom_Human_Toilet-512.png",
+      "changingStation": true,
+      "changingStation_2": true,
+      "handicapAccess": true,
+      "handicapAccess_2": true,
+      "user_Id": 1,
+      "id": 4,
+      "name": "Proctor Barn"
+    },
+    {
+      "name": "home",
+      "location": "2929 steamboat dr",
+      "lat": 36.237843399999996,
+      "lng": -86.69829709999999,
+      "rating": 3,
+      "inactiveIcon": "https://cdn3.iconfinder.com/data/icons/map-and-location-fill/144/Place_Restroom-512.png",
+      "activeIcon": "https://cdn4.iconfinder.com/data/icons/bold-purple-free-samples/32/Men_Symbol_Restroom_Human_Toilet-512.png",
+      "changingStation": true,
+      "changingStation_2": true,
+      "handicapAccess": false,
+      "handicapAccess_2": false,
+      "user_Id": 2,
+      "id": 5
+    },
+    {
+      "name": "Nashville Software School",
+      "location": "NSS",
+      "lat": 36.1326341,
+      "lng": -86.75641999999999,
+      "rating": 4,
+      "inactiveIcon": "https://cdn3.iconfinder.com/data/icons/map-and-location-fill/144/Place_Restroom-512.png",
+      "activeIcon": "https://cdn4.iconfinder.com/data/icons/bold-purple-free-samples/32/Men_Symbol_Restroom_Human_Toilet-512.png",
+      "changingStation": false,
+      "changingStation_2": false,
+      "handicapAccess": true,
+      "handicapAccess_2": true,
+      "user_Id": 1,
+      "id": 6
     }
+  ],
+  "users_markers": [
+    {
+      "markerId": 1,
+      "userId": 1
+    }
+  ],
+  "users_favorites": [
+    {}
+  ],
+  "rated": [
+    {}
   ]
 }
